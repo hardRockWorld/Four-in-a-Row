@@ -120,7 +120,11 @@ dist
 ### Example user template
 
 # IntelliJ project files
+<<<<<<< HEAD
 .idea/
+=======
+.idea
+>>>>>>> c227de7 (update gitignore file for idea folder)
 *.iml
 out
 gen
