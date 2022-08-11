@@ -42,9 +42,9 @@ class Game {
     handleKeyDown( event ) {
         if (this.ready) {
             if (event.key === 'ArrowLeft') {
-                // move left
+                this.activePlayer.activeToken.moveLeft();
             } else if (event.key === 'ArrowRight') {
-                // move right
+                this.activePlayer.activeToken.moveRight(this.board.columns);
             } else if (event.key === 'ArrowDown') {
                 // drop the token
             }
